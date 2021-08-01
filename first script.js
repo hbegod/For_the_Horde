@@ -1,4 +1,2 @@
-let name = "Джон";
-let admin = "";
-admin = name;
-alert(admin);
+let name = prompt("Введи свое имя пёс","");
+alert(`Ну ты и ${name}`);
