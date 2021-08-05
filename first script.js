@@ -1,7 +1,9 @@
-let nameJS = prompt("Какое официальное название у JavaScript?","");
+let number = Number(prompt("Введите число",""));
 
-if (nameJS == "ECMAScript") {
-    alert("Верно!");
+if (number > 0) {
+    alert("Больше нуля!");
+} else if (number < 0) {
+    alert("Меньше нуля!");
 } else {
-    alert("неверно - ECMAScript!");
+    alert("Равно нулю!");
 };
