@@ -1,9 +1,6 @@
-let number = Number(prompt("Введите число",""));
+let a = Number(prompt("Задайте a",""));
+let b = Number(prompt("Задайте b",""));
+let result = (a+b < 4) ? 'Мало' : 'Много';
+alert(result);
 
-if (number > 0) {
-    alert("Больше нуля!");
-} else if (number < 0) {
-    alert("Меньше нуля!");
-} else {
-    alert("Равно нулю!");
-};
+
