@@ -1,2 +1,7 @@
-let name = prompt("Введи свое имя пёс","");
-alert(`Ну ты и ${name}`);
+let nameJS = prompt("Какое официальное название у JavaScript?","");
+
+if (nameJS == "ECMAScript") {
+    alert("Верно!");
+} else {
+    alert("неверно - ECMAScript!");
+};
